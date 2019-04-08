@@ -35,9 +35,9 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  //console.log(rando);
+  console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `let to `let`.
-  // Because rand is declared inside the function  displayPics()  with let. So it is a variable  scoped inside this function block .
+  // PUT YOUR RESPONSE IN THIS COMMENT
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
