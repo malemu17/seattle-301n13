@@ -37,10 +37,13 @@ function displayPics(){
     }
   }
 
+
   
   //console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
   // Because rand is declared inside the function  displayPics()  with const. So it is a variable  scoped inside this function block .
+
+
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
